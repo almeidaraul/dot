@@ -1,5 +1,10 @@
 #!/bin/bash
 
+########################################
+# VIM stuff
+########################################
+cp .vimrc ~
+
 # https://github.com/tpope/vim-surround
 mkdir -p ~/.vim/pack/tpope/start
 cd ~/.vim/pack/tpope/start
@@ -17,3 +22,8 @@ vim -u NONE -c "helptags ~/.vim/pack/dist/start/vim-airline/doc" -c q
 # https://github.com/vim-airline/vim-airline-themes
 git clone https://github.com/vim-airline/vim-airline-themes ~/.vim/pack/dist/start/vim-airline-themes
 vim -u NONE -c "helptags ~/.vim/pack/dist/start/vim-airline-themes/doc" -c q
+
+########################################
+# redshift
+########################################
+cp redshift.conf ~/.config/redshift/
