@@ -1,6 +1,6 @@
 # dotfiles
 ## TODO
-- [ ] script que automatize isso tudo
+- [X] script que automatize isso tudo
 ## vimrc
 - [vim-surround](https://github.com/tpope/vim-surround)
 - [NERDTree](https://github.com/preservim/nerdtree)
